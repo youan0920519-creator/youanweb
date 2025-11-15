@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background: #d9d9d9;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.section {
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* ---- 首頁 ---- */
+.home-box {
+    display: flex;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background: #bbb;
+    object-fit: cover;
+}
+
+.text-block {
+    flex: 1;
+}
+
+.name-contact {
+    margin-top: 15px;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* ---- 經驗 ---- */
+/* ---- 經驗（左圖右文） ---- */
+.exp-item {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.exp-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.exp-text {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* ---- 技能 ---- */
+.skill-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.skill-circle {
+    width: 150px;
+    height: 75px;
+    background: linear-gradient(to right, #7a7a7a 50%, #cfcfcf 50%);
+    border-radius: 150px 150px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background-size: cover;
+}
+
+
+/* ---- 聯絡 ---- */
+.contact-box {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.contact-box a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
